@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-weight: normal;
+    background-color: rgb(238, 231, 231);
+}
+
+header {
+    color: rgb(150, 50, 0);
+}
+
+.photo {
+    border-style: solid;
+    border-color: rgb(104, 80, 80);
+    border-width: 4px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
+}
+
+#desc {
+    border-left: 5px solid rgb(161, 37, 37);
+    padding-left: 10px;
+    width: 80%;
+}
+
+.conteiner {
+   max-width: 80%;
+   margin: auto;
+}
+
+.conteiner .card {
+    border: 2px solid rgb(104, 80, 80);
+    background-color: rgba(223, 175, 156, 0.623);
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#conc {
+    background-color: rgb(53, 49, 49);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    font-family: inherit;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: rgb(104, 26, 26);
+}
+
+a {
+    color: #d1c9c9;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(88, 142, 192)
+}
+
+/*a:visited {
+    color: rgb(192, 104, 104);
+} */
+
+a:active {
+    color: blue;
+}
+
+.intro {
+    display: flex;
+}
+
+h1 {
+    margin: 0px;
+    color: rgb(124, 34, 34);
+}
+
+.form-card .card label{
+    display: block;
+
+}
+
+.form-card .card input, 
+.form-card .card textarea {
+    border: none;
+    width: 30%;
+    border-bottom: 1px solid black;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@media (max-width: 650px){
+    .intro {
+        display: block;
+        text-align: center;
+    }
+
+    .form-card .card input, 
+    .form-card .card textarea {
+        border: none;
+        width: 50%;
+        border-bottom: 1px solid black;
+        background: transparent;
+        box-sizing: border-box;
+        outline: none;
+}
+}
+

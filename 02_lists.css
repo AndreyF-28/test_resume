@@ -1,0 +1,26 @@
+.list {
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+#circ {
+    padding: 0px 16px;
+}
+
+.table {
+    width: 100%;
+    padding: 0px;
+}
+
+.table th{
+    text-align: left;
+    padding: 0px;
+}
+
+.table td:hover {
+    background: #a87b6c;
+}
+
+.table tr:nth-child(even){
+    background: rgb(224, 156, 156);
+}

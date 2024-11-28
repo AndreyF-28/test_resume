@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="resume, cv, frontend" />
+        <meta name="description" content="Это сайт-резюме" />
+        <title>HTML</title>
+        <style></style>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="02_lists.css" />
+    </head>
+    <body>
+        <section class="conteiner">
+            <div class="intro">
+                <img
+                    src="https://sun9-32.userapi.com/impg/wcQj_D2-latsfJKIxJIX2ygB1a_7B8rh3hUqAQ/61XlfK1JMj8.jpg?size=1620x2160&quality=95&sign=5b153eb99e30c5698f7c732a7949f03c&type=album"
+                    width="200px"
+                    alt="ава из ВК"
+                    class="photo"
+                />
+                <div>
+                    <h1>Андрей Философов</h1>
+                    <p id="desc">
+                        Я студент <strong>2 курса магистратуры </strong> и
+                        проживаю в <strong>г.Санкт-Петербург.</strong> <br />
+                        Люблю
+                        <em
+                            >заниматься спортом, немножко киберспортом, играть
+                            турниры на бабки, играть на гитаре, готовить
+                            пиздатый хавчик и рыбалочку.</em
+                        >
+                        Остальное по мелочи.
+                    </p>
+                    <div id="conc">
+                        <p><strong>Ссылки на соцсети</strong></p>
+                        <p>
+                            <a href="https://vk.com/kgjgkjc" target="_blank"
+                                >ВКонтакте</a
+                            >
+                            |
+                            <a
+                                href="https://www.instagram.com/andreyfilosofov/"
+                                target="_blank"
+                                >Instagram</a
+                            >
+                            |
+                            <a href="01-text.html" target="_blank"
+                                >Сайт-резюме (для примера)</a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!-- <img 
+                src="/images/nfE_np5ET6M.jpg"
+                width="250"
+                alt="ава с компа"
+                class="photo"
+            <-->
+
+            <div class="card">
+                <h2>Мои хобби</h2>
+                <ul class="list">
+                    <li>Гитара</li>
+                    <li>
+                        Спорт
+                        <ul id="circ">
+                            <li>Хоккей</li>
+                            <li>Настольный теннис</li>
+                            <li>Велосипед</li>
+                        </ul>
+                    </li>
+                    <li>Готовить блюда и закуски под пиво</li>
+                    <li>Играть турниры по кс</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>МТС</td>
+                            <td>Продавец</td>
+                            <td>2023-2023</td>
+                        </tr>
+                        <tr>
+                            <td>Taxcom</td>
+                            <td>Специалист ТП</td>
+                            <td>2024-2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-card">
+                <div class="card">
+                    <h2>Связаться со мной</h2>
+                    <div>
+                        <label for="text">Ваше имя:</label>
+                        <input
+                            type="text"
+                            id="text"
+                            placeholder="Введите имя"
+                        />
+                    </div>
+                    <div>
+                        <label for="email">Ваш email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Введите email"
+                        />
+                    </div>
+                    <div>
+                        <label for="message">Ваше сообщение</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="5"
+                            placeholder="Введите сообщение..."
+                        ></textarea>
+                        <br />
+                        <button class="btn">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
